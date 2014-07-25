@@ -21,7 +21,7 @@
 **********************************************************************/
 
 #include "SettingsDialog.h"
-#include "TessTools.h"
+#include "../src/TessTools.h"
 #include <QStyleFactory>
 
 SettingsDialog::SettingsDialog(QWidget* parent, int tabIndex)

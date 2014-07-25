@@ -124,7 +124,7 @@ QString TessTools::makeBoxes(const QImage& qImage, const int page) {
 
   pixDestroy(&pixs);
   api->End();
-  delete api;
+  //delete api;
   return QString::fromUtf8(text_out.string());
 }
 
@@ -258,7 +258,7 @@ QImage TessTools::GetThresholded(const QImage& qImage) {
     PIX * pixq = api->GetThresholdedImage();
     QImage tresholdedImage = PIX2qImage(pixq);
     api->End();
-    delete api;
+    //delete api; // bug
     pixDestroy(&pixs);
     pixDestroy(&pixq);
 
@@ -327,4 +327,3 @@ void TessTools::msg(QString messageText) {
     msgBox.setText(messageText);
     msgBox.exec();
 }
-

@@ -51,7 +51,7 @@
 
 #include "ChildWidget.h"
 #include "Settings.h"
-#include "SettingsDialog.h"
+#include "../dialogs/SettingsDialog.h"
 
 class ChildWidget;
 class QAction;

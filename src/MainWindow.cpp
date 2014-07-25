@@ -23,7 +23,7 @@
 **********************************************************************/
 
 #include "MainWindow.h"
-#include "dialogs/ShortCutsDialog.h"
+#include "../dialogs/ShortCutsDialog.h"
 
 MainWindow::MainWindow() {
   tabWidget = new QTabWidget;

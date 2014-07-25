@@ -32,4 +32,6 @@
 #define TABLE_FONT "Arial"
 #define TABLE_FONT_SIZE 12
 
+#define VERSION 1
+
 #endif  // SRC_INCLUDE_SETTINGS_H_

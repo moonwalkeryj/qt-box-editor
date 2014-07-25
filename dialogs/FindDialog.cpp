@@ -20,9 +20,9 @@
 *
 **********************************************************************/
 
-#include "dialogs/FindDialog.h"
-#include "Settings.h"
-#include <unistd.h>
+#include "FindDialog.h"
+#include "../src/Settings.h"
+//#include <unistd.h>
 #include <QDebug>
 
 FindDialog::FindDialog(QWidget* parent, QString title)

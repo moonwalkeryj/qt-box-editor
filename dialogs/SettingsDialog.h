@@ -32,7 +32,7 @@
 #include <QDebug>
 
 #include "ui_SettingsDialog.h"
-#include "Settings.h"
+#include "../src/Settings.h"
 
 class SettingsDialog : public QDialog, public Ui::SettingsDialog {
   Q_OBJECT
